@@ -1,0 +1,147 @@
+
+/* Style to make the image circular */
+.profile-picture {
+    border-radius: 50%;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    display: block;
+    margin: 0 auto;
+}
+/* Style the container on the left side */
+.left-container {
+    float: left; /* Float the container to the left */
+    width: 300px; /* Set the width of the container as needed */
+    height: 1000px;
+    background-color: #ffffff; /* Set the background color as needed */
+    padding: 40px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Optional: Add some styling to the text inside the container */
+.left-container p {
+    text-align: center;
+}
+  /* Optional: Add some styling to the box */
+/* Style the container on the right side */
+.Right-container {
+    float: right; /* Float the container to the left */
+    width: 946px; /* Set the width of the container as needed */
+    height: 1000px;
+    background-color: #e5dfed; /* Set the background color as needed */
+    padding: 40px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    text-align: left;
+    text-decoration-style: solid;
+    text-size-adjust: 20px;
+    background-size: 90%;
+
+}
+.morning {
+    background-image: url('morning.jpg');
+}
+
+.afternoon {
+    background-image: url('afternoon.jpg');
+}
+
+.evening {
+    background-image: url('evening.jpg');
+}
+
+.night {
+    background-image: url('night.jpg');
+    color: #5b5663;
+    
+}
+
+.Dashboard-picture {
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    text-align-last: right;
+
+    
+    
+}
+.progress-box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-radius: 10%;
+}
+.Assignment-Box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.Course-Box {
+    width: 246px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.Schedule-Box {
+    width: 600px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Setting-Box {
+    width: 246px;
+    height: 60px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#clickableText {
+    color: blue;
+    cursor: pointer;
+    flex: bold;
+}
+.login-container {
+    width: 600px;
+    height: 700px;
+    background-color: rgb(243, 216, 216);
+    float: right;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 10px;
+    position:absolute;
+    top: 100px;
+    left: 500px;
+}
+.Whiteboard-picture {
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    text-align-last: right;
+}
+#whiteboard {
+    border: 1px solid black;
+  }
+  
+  /* Add your other CSS styles here */

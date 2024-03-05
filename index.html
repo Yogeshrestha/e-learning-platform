@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>applied project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="left-container">
+        <h1>learning</h1>
+        <hr>
+        <img class="profile-picture" src="blank-profile-picture-973460_960_720.webp" alt="Profile picture of the user">
+        <div id="clickableText">
+            <button id="signupButton">Signup</button>
+            <button id="signinButton">Signin</button>
+        </div>
+        <hr>
+        <img class="Dashboard-picture" src="dashboard logo.png" alt="Dashboard picture">
+        <p>Dashboard</p>
+
+        <div id="whiteboardSection">
+            <hr>
+            <button id="whiteboardPageButton" onclick="whiteboardPage()">
+                <div>
+                    <img class="Whiteboard-picture" src="whiteboard.jpg.png" alt="A whiteboard picture for note-taking and collaboration">
+                    <p>Whiteboard</p>
+                    
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="Right-container" id="rightContainer">
+        <h1 id="greeting">Good Morning,</h1>
+        <div class="Setting-Box">
+            <h1>Settings</h1>
+            <hr>
+            <p>Sample settings content</p>
+        </div>
+        <div class="progress-box">
+            <h1>Progress Report</h1>
+            <hr>
+            <p>Sample progress report content</p>
+        </div>
+        <div class="Assignment-Box">
+            <h1>Assignments</h1>
+            <hr>
+            <p>Sample assignments content</p>
+        </div>
+        <div class="Course-Box">
+            <h1>Courses</h1>
+            <hr>
+            <p>Sample courses content</p>
+        </div>
+        <div class="Schedule-Box">
+            <h1>Schedule</h1>
+            <hr>
+            <p>Sample schedule content</p>
+        </div>
+    </div>
+
+    <script>
+        function whiteboardPage() {
+            window.location.href = 'whiteboard.html';
+        }
+    </script>
+
+</body>
+<script src="script.js"></script>
+</html>

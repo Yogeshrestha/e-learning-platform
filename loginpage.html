@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>applied project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="left-container">
+        <h1>learning</h1>
+        <hr>
+        <img class="profile-picture" src="blank-profile-picture-973460_960_720.webp" alt="Profile Picture">
+        <button id="signupButton">Signup</button>
+        <button id="signinButton">Signin</button>
+        <hr>
+        <img class="Dashboard-picture" src="dashboard logo.png" alt="Dashboard Picture">
+        <p>Dashboard</p>
+    </div>
+    <div class="Right-container" id="rightContainer">
+        <h1>Welcome to the Dashboard!</h1>
+    </div>
+    <div class="login-container">
+        <h1>signup Page</h1>
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" required><br>
+
+            <label for="Firstname">Firstname:</label>
+            <input type="text" class="form-control" id="Firstname" name="Firstname" required><br>
+
+            <label for="Lastname">Lastname:</label>
+            <input type="Lastname" class="form-control" id="Lastname" name="Lastname" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required><br>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
